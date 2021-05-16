@@ -1,0 +1,6 @@
+λ setxkbmap -layout us -variant colemak -option "ctrl:nocaps"
+λ xmodmap ~/.Xmodmap2
+λ xmodmap ~/.XWindowKeyMap
+λ xcape -e 'Control_L=Escape'  
+λ xmodmap -e "keycode 108 = Alt_R Meta_R Alt_R Meta_R"
+
